@@ -62,9 +62,6 @@ nav a:hover {
 
 /* footer section */
 
-footer {
-
-}
 footer ul {
   display:grid;
   /*flex-direction: column;*/
@@ -83,6 +80,7 @@ footer li a {
 
 footer li a:hover {
   color: purple;
+  font-size: 3em;
 }
 footer ul:last-child {
   align-self:end;
