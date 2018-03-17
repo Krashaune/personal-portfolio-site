@@ -1,7 +1,89 @@
-/* header section */
+/*full page */
+
+body {
+  margin:50px;
+  height: 100%;
+  font-family: 'Shadows Into Light',sans-serif;
+  background: #ff69b4;
+  background:-webkit-linear-gradient(bottom, #ff69b4, #e6e6fa);
+  background: -moz-linear-gradient(bottom, #ff69b4, #e6e6fa);
+  background: -ms-linear-gradient(bottom, #ff69b4, #e6e6fa);
+  background: -o-linear-gradient(bottom, #ff69b4, #e6e6fa);
+  background: linear-gradient(to top, #ff69b4, #e6e6fa);
+}
+
 
 /* navigation section */
+nav ul {
+  display:flex;
+  list-style-type: none;
+  position:fixed;
+  top:0;
+  width: 80%;
+  justify-content: space-between;
+}
+
+nav li a {
+  color:hotpink;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+/* header section */
+
+.header {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  padding: 150px;
+  /*background-image:
+   url("images/ganapathy-kumar-113604-unsplash.jpg");*/
+   /*background-image: url("image-skyline.jpg");*/
+}
+
+
+.header h1 {
+  font-size: 75px;
+}
+
+.header span {
+  padding: 0px;
+}
+
+
 
 /* main section */
 
 /* footer section */
+
+footer {
+
+}
+footer ul {
+  display:grid;
+  /*flex-direction: column;*/
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr;
+  justify-items:center;
+  bottom:0;
+  width: 80%;
+
+}
+
+footer li a {
+  color: grey;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: purple;
+}
+footer ul:last-child {
+  align-self:end;
+}
