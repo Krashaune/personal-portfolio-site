@@ -1,6 +1,6 @@
 /*full page*/
 .hero-image {
-  position: sticky;
+  /*position: sticky;*/
   text-align: center;
   color: white;
   padding-top: 150px;
@@ -13,7 +13,8 @@
 }
 .top-left {
   position:absolute;
-  top:130px;
+  padding-left: 50px;
+  top:110px;
   left:16px;
   font-size: 60px;
 }
@@ -24,7 +25,7 @@
 
 .header {
   border: 2px solid grey;
-  padding-top: 30px;
+  padding: 0px;
 }
 
 /*main section*/
