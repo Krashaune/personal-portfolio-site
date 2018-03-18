@@ -1,7 +1,30 @@
 /*full page*/
+.hero-image {
+  position: sticky;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  /*border: 2px solid grey;*/
+  overflow:hidden;
+}
 
-/*main section*/
+.hero-image img {
+  border: 3px solid grey;
+}
+.top-left {
+  position:absolute;
+  top:130px;
+  left:16px;
+  font-size: 60px;
+}
+
+.top-left h3{
+  color: purple;
+}
 
 .header {
-  background-image: url("https://unsplash.com/photos/Gt0jj3vBazY");
+  border: 2px solid grey;
+  padding-top: 30px;
 }
+
+/*main section*/

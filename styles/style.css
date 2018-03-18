@@ -31,7 +31,8 @@ nav li a {
 }
 
 nav a:hover {
-  color: grey;
+  color: purple;
+  font-size: 3em;
 }
 
 /* header section */
@@ -40,8 +41,9 @@ nav a:hover {
   display:flex;
   flex-direction: column;
   text-align: center;
-  border-bottom: 2px solid grey;
+
   padding: 150px;
+
   /*background-image:
    url("images/ganapathy-kumar-113604-unsplash.jpg");*/
    /*background-image: url("image-skyline.jpg");*/
@@ -61,6 +63,9 @@ nav a:hover {
 /* main section */
 
 /* footer section */
+footer {
+  border-top: 2px solid grey;
+}
 
 footer ul {
   display:grid;
@@ -74,7 +79,7 @@ footer ul {
 }
 
 footer li a {
-  color: grey;
+  color: #000000;
   text-decoration: none;
 }
 
