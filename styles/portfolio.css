@@ -1,6 +1,7 @@
 main {
-  padding-top: 50px;
+  padding-top: 100px;
 }
+
 
 .tech {
   text-align: center;
@@ -13,13 +14,16 @@ main {
 .overlay {
   position:absolute;
   padding-left: 50px;
-  top:110px;
+  top:40px;
   left:16px;
+  right: 20px;
   text-align: center;
 }
 .overlay p {
   font-size: 30px;
-  padding-top: 120px;
+  padding-top: 300px;
+  padding-right: 50px;
+  font-weight: bold;
 }
 
 .overlay strong {
@@ -29,6 +33,7 @@ main {
 .tech h1 {
   font-size: 100px;
   padding-top: 0px;
+  color: purple;
 }
 
 section h2 {
@@ -54,19 +59,20 @@ section h2 {
 }
 
 
-.ruby > li a {
+.ruby li > a {
   text-decoration: none;
   color: #000000;
   display: block;
   font-size: 1.17em;
   margin-top: 1em;    margin-bottom: 1em;    margin-left: 0;
   margin-right: 0;    font-weight: bold;
-  align: center;
+
 }
 
-.ruby a:hover{
+.ruby a:hover {
   color: grey;
 }
+
 .ruby {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -97,8 +103,9 @@ section h2 {
   font-size: 1.17em;
   margin-top: 1em;    margin-bottom: 1em;    margin-left: 0;
   margin-right: 0;    font-weight: bold;
-  align: center;
+
 }
+
 
 .web-design a:hover{
   color: grey;

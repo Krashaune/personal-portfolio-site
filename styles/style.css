@@ -43,10 +43,6 @@ nav a:hover {
   text-align: center;
 
   padding: 150px;
-
-  /*background-image:
-   url("images/ganapathy-kumar-113604-unsplash.jpg");*/
-   /*background-image: url("image-skyline.jpg");*/
 }
 
 
@@ -72,7 +68,7 @@ footer ul {
   /*flex-direction: column;*/
   list-style-type: none;
   grid-template-columns: 1fr 1fr;
-  justify-items:center;
+  justify-content:center;
   bottom:0;
   width: 80%;
 
@@ -88,5 +84,5 @@ footer li a:hover {
   font-size: 3em;
 }
 footer ul:last-child {
-  align-self:end;
+  align-items:flex-end;
 }
