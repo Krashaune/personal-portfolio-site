@@ -1,3 +1,65 @@
+
+/*full page*/
 main {
-  padding: 100px;
+  padding: 50px;
+}
+
+/*aside {
+  top:50px;
+  left:50px;
+}*/
+/*intro section*/
+.intro h1 {
+  font-size: 75px;
+  text-align: center;
+}
+
+.intro strong {
+  text-decoration: underline;
+
+}
+.intro p {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*.intro:last-child{
+  font-size: 10px;
+}*/
+/*entries section*/
+.entries {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  border-top: 2px solid purple;
+  /*border-bottom: 2px solid grey;*/
+
+
+}
+
+.entries ul {
+  list-style-type: none;
+  height: 95%;
+  border-right: 2px dotted purple;
+  padding-left: 25px;
+  padding-right: 15px;
+
+}
+
+.entries li {
+
+}
+
+.entries h2 {
+  border-bottom: 1px solid purple;
+}
+.entries strong{
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.music a {
+  text-decoration: none;
+  color: #000000;
 }

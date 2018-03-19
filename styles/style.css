@@ -65,10 +65,9 @@ footer {
 
 footer ul {
   display:grid;
-  /*flex-direction: column;*/
   list-style-type: none;
   grid-template-columns: 1fr 1fr;
-  justify-content:center;
+  justify-content: space-between;
   bottom:0;
   width: 80%;
 

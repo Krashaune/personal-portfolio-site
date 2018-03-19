@@ -28,4 +28,20 @@
   padding: 0px;
 }
 
-/*main section*/
+span {
+  color:white;
+  font-weight: bold;
+}
+
+/*.details {
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+}*/
+
+.details ul{
+  list-style-type: none;
+}
+
+.details h2{
+  text-decoration: underline;
+}
